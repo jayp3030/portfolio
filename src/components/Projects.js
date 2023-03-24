@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 
 export default function Projects() {
   useEffect( () =>{
-    Aos.init({duration:1250});
+    Aos.init({duration:1750});
   },[])
   return (
     <div className="projects" id="projects">

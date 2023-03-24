@@ -7,7 +7,7 @@ export default function Nav() {
         document.getElementById('cross').style.display = 'block'
     }
     const closenav = () =>{
-        document.getElementById('responsiveNav').style.transform = 'translateY(-13.5rem)'
+        document.getElementById('responsiveNav').style.transform = 'translateY(-14rem)'
         document.getElementById('cross').style.display = 'none'
         document.getElementById('ham').style.display = 'block'
     }
