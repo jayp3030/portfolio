@@ -4,7 +4,7 @@ import mkup2 from "../imgs/bestapp.jpg"
 import mkup3 from "../imgs/university.jpg"
 import mkup4 from "../imgs/nasa.jpg"
 import mkup5 from "../imgs/newsapp.jpg"
-import mkup6 from "../imgs/makemyhome.jpg"
+// import mkup6 from "../imgs/makemyhome.jpg"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -33,7 +33,7 @@ export default function Projects() {
             <p>
               sitechs is my first frontend website this website is about CAD, CAM, NX-modeling services which i made on the request of one my friend. 
             </p>
-            <h2>tech used</h2>
+            <h2 className="lighter">tech used</h2>
             <div className="techs skills">
               <div>HTML</div>
               <div>CSS </div>
@@ -56,7 +56,7 @@ export default function Projects() {
             <p>
               bestApp is simple frontend website which i have made as a part of my personal project, this website is about one application which provides different services, it also contains pricing of app and features of app.
             </p>
-            <h2>tech used</h2>
+            <h2 className="lighter">tech used</h2>
             <div className="techs skills">
               <div>HTML</div>
               <div>CSS</div>
@@ -78,7 +78,7 @@ export default function Projects() {
             <p>
               university website is developed by me as a part of my personal project, this website contains frontend only. this website is for university which containes facilities provided by university, courses offers by university, campus information and many more.
             </p>
-            <h2>tech used</h2>
+            <h2 className="lighter">tech used</h2>
             <div className="techs skills">
               <div>HTML</div>
               <div>CSS</div>
@@ -101,7 +101,7 @@ export default function Projects() {
             <p>
               NASA controll mission is a backend project which i have done during one course.this website was made of using node, express, mongoDB in backend and react in frontend.which describes how API's are built and how request are served in frontend.
             </p>
-            <h2>tech used</h2>
+            <h2 className="lighter">tech used</h2>
             <div className="techs skills">
               <div>react</div>
               <div>node</div>
@@ -124,7 +124,7 @@ export default function Projects() {
             <p>
               NEWS app is react website which provides functionallity to watch daily exiting news from all over world, i had used NEWS api to implement this website which is free to use. 
             </p>
-            <h2>tech used</h2>
+            <h2 className="lighter">tech used</h2>
             <div className="techs skills">
               <div>react</div>
               <div>news api</div>

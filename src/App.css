@@ -93,7 +93,7 @@ a:focus {
   justify-content: center;
   /* width: 100vw; */
   height: 100vh;
-  background: linear-gradient(to right, rgba(245, 245, 245, .7), rgba(245, 245, 245, .7)), url(./imgs/bg1.jpg);
+  background: linear-gradient(to right, rgba(245, 245, 245, .35), rgba(245, 245, 245, .35)), url(./imgs/bg1.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -241,7 +241,7 @@ a:focus {
   height: 75%;
   width: 100%;
   display: flex;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 .leftBottm {
@@ -253,8 +253,8 @@ a:focus {
 }
 
 .rightBottom {
-  height: 100%;
   width: 50%;
+  height: 100%;
   padding: .5rem 0;
   /* background: red; */
 }
@@ -283,7 +283,6 @@ a:focus {
   font-size: 1.2rem;
   background: rgba(153, 153, 153, .2);
   padding: .5rem 1.5rem;
-  border-radius: .3rem;
 }
 
 .skills>div:hover {
@@ -302,10 +301,8 @@ a:focus {
 .row {
   width: 100%;
   height: fit-content;
-  padding: 1rem;
   display: flex;
   margin-bottom: 1rem;
-  /* background: red; */
 }
 
 .col1 {
@@ -340,12 +337,16 @@ a:focus {
   margin: auto 0;
 }
 
-.col2 h2 {
+.col2 h2:nth-child(1){
   color: var(--primary);
   font-size: 1.5rem;
   margin-bottom: .5rem;
 }
-
+.lighter{
+  color: var(--light);
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+}
 .col2 p {
   color: var(--light);
   margin: .5rem 0;
@@ -443,6 +444,7 @@ a:focus {
   height: fit-content;
   padding: 1rem 7%;
   background: black;
+  z-index: 10;
 }
 
 .footer hr {
@@ -455,7 +457,7 @@ a:focus {
 
 .info {
   width: 50%;
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 
 .info h2 {
@@ -508,8 +510,9 @@ a:focus {
 
 .copyRight {
   color: #f0f0f0;
-  margin-top: 1rem;
+  margin-top: .9rem;
   text-align: center;
+  font-size: 1rem
 }
 
 .copyRight a {
@@ -640,7 +643,7 @@ a:focus {
 
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
   .innerHome h1 {
     font-size: 2.35rem;
   }
@@ -676,10 +679,12 @@ a:focus {
   .projects{
     padding-top: 5rem;
   }
-  .col2 h2 {
+  .col2 h2:nth-child(1){
     font-size: 1.35rem;
   }
-  
+  .lighter{
+    font-size: 1.15rem;
+  }
   .col2 p {
     font-size: .9rem;
   }
@@ -712,44 +717,50 @@ a:focus {
     font-size: 1.77rem;
   }
   .innerHome p {
-    font-size: .75rem;
+    font-size: .85rem;
   }
   .btn {
     margin: 0;
-    padding: .5rem 2rem;
+    padding: .35rem 1.5rem;
     letter-spacing: 1px;
   }
   .btn-invert{
     letter-spacing: 1.1px;
   }
   .btn-invert {
-    padding: .5rem 2rem;
+    padding: .35rem 1.5rem;
   }
   .title{
     font-size: 1.65rem;
   }
   .upperAbout p {
     width: 90%;
-    font-size: .8rem;
+    font-size: .85rem;
   }
   .leftBottm h2,
   .rightBottom h2 {
     font-size: 1.45rem;
   }
   .leftBottm p {
-    font-size: .75rem;
+    font-size: .8rem;
   }
   .links{
     display: flex;
     gap: 1rem;
   }
-  .col2 h2 {
-    font-size: 1.15rem;
+  .col2 h2:nth-child(1) {
+    font-size: 1.3rem;
+  }
+  .lighter{
+    font-size: 1rem;
   }
   .col2 p {
-    font-size: .75rem;
+    font-size: .8rem;
   }
   .skills>div {
+    font-size: .75rem;
+  }
+  .copyRight{
     font-size: .75rem;
   }
 }
