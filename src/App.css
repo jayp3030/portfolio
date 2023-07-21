@@ -136,6 +136,7 @@ a:focus {
 }
 
 .btn:hover {
+  cursor: pointer;
   background: transparent;
   border: 1.5px solid var(--dark);
 }
@@ -156,6 +157,7 @@ a:focus {
 }
 
 .btn-invert:hover {
+  cursor: pointer;
   background: var(--dark);
   border: 1.5px solid var(--dark);
   color: var(--primary);
